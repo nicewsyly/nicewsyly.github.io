@@ -1,0 +1,39 @@
+#基础配置
+baseURL: 'http://nicewsyly.github.io'
+languageCode: 'zh-CN'
+title: 'sia_ws的博客'
+theme: 'hugo-book'
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+menu:
+  main:
+    - name:  搜索
+      url: search/
+      weight: 10
+    - name: 分类
+      url: tags/
+      weight: 10
+    - name: 关于我
+      url: about/
+      weight: 10
+    - name: 首页
+      url: /
+      weight: 10
+
+#主题配置参数
+params:
+  defaultTheme: auto
+  homeInfoParams:
+    Title: "技能树"
+    Content: >
+      XXXXXXXXXX你要显示内容
+  socialIcons:
+    - name: Github
+      url: "https://github.com/RmondJone"
+    - name: Email
+      url: about/
